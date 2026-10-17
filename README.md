@@ -89,6 +89,41 @@ _Nand2Tetris_ menukar pembahasan yang mendalam dengan kesederhanaan dan keterpad
 
 Setelah Anda merasa nyaman dengan _Nand2Tetris_, kami sarankan untuk mencoba kembali buku _CS:APP_, atau mempertimbangkan [_Computer Organization and Design_](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269) oleh Patterson dan Hennessy, sebuah buku teks klasik yang sangat bagus. Anda tidak harus membaca setiap bagian dari buku ini; kami menyarankan Anda untuk mengikuti kuliah [CS61C](https://inst.eecs.berkeley.edu/~cs61c/sp15/) _Great Ideas in Computer Architecture_ dari Berkeley untuk bacaan tertentu dalam buku ini. Catatan kuliahnya tersedia secara daring, dan kuliah sebelumnya [terdapat di Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
 
+### Algorithms and Data Structures
+
+<img align="right" height="280" src="https://teachyourselfcs.com/polya.jpg">
+<img align="right" height="280" src="https://teachyourselfcs.com/skiena.jpg">
+
+> I have only one method that I recommend extensively—it’s called think before you write.
+
+— _Richard Hamming_
+
+We agree with decades of common wisdom that familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study.
+
+There are hundreds of books available, but our favorite is [_The Algorithm Design Manual_](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) by Steven Skiena. He clearly loves algorithmic problem solving and typically succeeds in fostering similar enthusiasm among his students and readers. In our opinion, the two more commonly suggested texts (CLRS and Sedgewick) tend to be a little too proof-heavy for those learning the material primarily to help with practical problem solving.
+
+For those who prefer video lectures, [Skiena generously provides his online](https://www3.cs.stonybrook.edu/~skiena/373/videos/). We also really like Tim Roughgarden’s course, available [on Coursera](https://www.coursera.org/specializations/algorithms) and [elsewhere](http://timroughgarden.org/videos.html). Whether you prefer Skiena’s or Roughgarden’s lecture style will be a matter of personal preference. In fact, there are dozens of good alternatives, so if you happen to find another that you like, we encourage you to stick with it!
+
+For practice, our preferred approach is for students to solve problems on [Leetcode](http://leetcode.com). These tend to be interesting problems with decent accompanying solutions and discussions. They also help you test progress against questions that are commonly used in technical interviews at the more competitive software companies. We suggest solving around 100 random leetcode problems as part of your studies.
+
+Finally, we strongly recommend [_How to Solve It_](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) as an excellent and unique guide to general problem solving; it’s as applicable to computer science as it is to mathematics.
+
+### Mathematics for Computer Science
+
+> If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
+
+— _John von Neumann_
+
+In some ways, computer science is an overgrown branch of applied mathematics. While many software engineers try—and to varying degrees succeed—at ignoring this, we encourage you to embrace it with direct study. Doing so successfully will give you an enormous competitive advantage over those who don’t.
+
+The most relevant area of math for CS is broadly called “discrete mathematics”, where “discrete” is the opposite of “continuous” and is loosely a collection of interesting applied math topics outside of calculus. Given the vague definition, it’s not meaningful to try to cover the entire breadth of “discrete mathematics”. A more realistic goal is to build a working understanding of logic, combinatorics and probability, set theory, graph theory, and a little of the number theory informing cryptography. Linear algebra is an additional worthwhile area of study, given its importance in computer graphics and machine learning.
+
+Our suggested starting point for discrete mathematics is the set of [lecture notes by László Lovász](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf). Professor Lovász did a good job of making the content approachable and intuitive, so this serves as a better starting point than more formal texts.
+
+For a more advanced treatment, we suggest [_Mathematics for Computer Science_](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf), the book-length lecture notes for the MIT course of the same name. That course’s video lectures are also [freely available](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/), and are our recommended video lectures for discrete math.
+
+For linear algebra, we suggest starting with the [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) video series, followed by Gilbert Strang’s [book](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) and [video lectures](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/).
+
 ### Sistem Operasi
 
 <img align="right" width="200" src="https://teachyourselfcs.com/ostep.jpeg">
@@ -114,6 +149,53 @@ Mengingat begitu banyak rekayasa perangkat lunak ada di server dan klien web, sa
 Buku favorit kami tentang topik ini adalah [_Computer Networking: A Top-Down Approach_](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/). Proyek-proyek kecil dan latihan dalam buku ini sangat layak untuk dikerjakan, dan kami sangat menyukai _Wireshark labs_ yang telah mereka [sediakan gratis secara daring](http://www-net.cs.umass.edu/wireshark-labs/).
 
 Bagi mereka yang lebih menyukai materi dalam bentuk video, kami menyarankan video kuliah [_Introduction to Computer Networking_](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS) dari Stanford yang sebelumnya ada pada platform belajar online mereka, tapi sayangnya sekarang hanya tersedia sebagai playlist tidak resmi di YouTube.
+
+### Databases
+
+<img align="right" width="200" src="https://teachyourselfcs.com/redbook.jpg">
+<img align="right" width="200" src="https://teachyourselfcs.com/data-reality.jpg">
+
+It takes more work to self-learn about database systems than it does with most other topics. It’s a relatively new (i.e. post 1970s) field of study with strong commercial incentives for ideas to stay behind closed doors. Additionally, many potentially excellent textbook authors have preferred to join or start companies instead.
+
+Given the circumstances, we encourage self-learners to generally avoid textbooks and start with [recordings of CS 186](https://www.youtube.com/user/CS186Berkeley/videos), Joe Hellerstein’s databases course at Berkeley, and to progress to reading papers after.
+
+One paper particularly worth mentioning for new students is “[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)”, which uniquely provides a high-level view of how relational database management systems (RDBMS) work. This will serve as a useful skeleton for further study.
+
+_Readings in Database Systems_, better known as [the databases “Red Book”](http://www.redbook.io/), is a collection of papers compiled and edited by Peter Bailis, Joe Hellerstein and Michael Stonebraker. For those who have progressed beyond the level of the CS 186 content, the Red Book should be your next stop.
+
+If you're adamant about using an introductory textbook, we suggest [_Database Management Systems_](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/) by Ramakrishnan and Gehrke. For more advanced students, Jim Gray’s classic [_Transaction Processing: Concepts and Techniques_](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) is worthwhile, but we don’t encourage using this as a first resource.
+
+Finally, data modeling is a neglected and poorly taught aspect of working with databases. Our suggested book on the topic is [_Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World_](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215).
+
+### Languages and Compilers
+
+<img align="right" width="200" src="https://teachyourselfcs.com/dragon.jpg">
+
+> Don’t be a boilerplate programmer. Instead, build tools for users and other programmers. Take historical note of textile and steel industries: do you want to build machines and tools, or do you want to operate those machines?
+
+— _Ras Bodik at the start of his compilers course_
+
+Most programmers learn languages, whereas most computer scientists learn _about_ languages. This gives the computer scientist a distinct advantage over the programmer, even in the domain of programming! Their knowledge generalizes; they are able to understand the operation of a new language more deeply and quickly than those who have merely learned specific languages.
+
+Our suggested introductory text is the excellent [_Crafting Interpreters_](https://craftinginterpreters.com/contents.html) by Bob Nystrom, available for free online. It's well organized, highly entertaining, and well suited to those whose primary goal is simply to better understand their languages and language tools. We suggest taking the time to work through the whole thing, attempting whichever of the "challenges" sustain your interest.
+
+A more traditional recommendation is [_Compilers: Principles, Techniques & Tools_](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811), commonly called “the Dragon Book”. Unfortunately, it’s not designed for self-study, but rather for instructors to pick out 1-2 semesters worth of topics for their courses.
+
+If you elect to use the Dragon Book, it’s almost essential that you cherry-pick the topics, ideally with the help of a mentor. In fact, our suggested way to utilize the Dragon Book, if you so choose, is as a supplementary reference for a video lecture series. Our recommended one is [Alex Aiken’s, on edX](https://www.edx.org/course/compilers).
+
+### Sistem Terdistribusi
+
+<img align="right" width="200" src="https://teachyourselfcs.com/ddia.jpg">
+
+Semakin bertambahnya jumlah komputer, _penyebaran_ penggunaannya pun semakin luas. Jika sebelumnya pelaku bisnis akan membeli _mainframe_ yang lebih besar, saat ini sudah cukup lumrah bagi aplikasi kecil untuk berjalan di beberapa mesin. Sistem terdistribusi adalah studi tentang bagaimana memilih _trade-off_ yang terlibat dalam melakukan hal tersebut.
+
+Buku yang kami sarankan untuk belajar mandiri adalah [_Designing Data-Intensive Applications_](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/) oleh Martin Kleppmann. Buku yang jauh lebih baik daripada buku teks tradisional, DDIA adalah buku yang sangat mudah dibaca yang dirancang untuk para praktisi tanpa mengorbankan kedalaman atau ketelitian.
+
+For those seeking a more traditional text, or who would prefer one that’s available for free online, we suggest Maarten van Steen and Andrew Tanenbaum’s [_Distributed Systems, 3rd Edition_](https://www.distributed-systems.net/index.php/books/ds3/).
+
+For those who prefer video, an excellent course with videos available online is [MIT’s 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), a graduate course taught by Robert Morris with readings available [here](https://pdos.csail.mit.edu/6.824/schedule.html).
+
+No matter the choice of textbook or other secondary resources, study of distributed systems absolutely mandates reading papers. A good list is [here](http://dsrg.pdos.csail.mit.edu/papers/), and we would highly encourage attending your local [Papers We Love](http://paperswelove.org/) chapter.
 
 ## Pertanyaan yang sering diajukan
 
