@@ -89,40 +89,40 @@ _Nand2Tetris_ menukar pembahasan yang mendalam dengan kesederhanaan dan keterpad
 
 Setelah Anda merasa nyaman dengan _Nand2Tetris_, kami sarankan untuk mencoba kembali buku _CS:APP_, atau mempertimbangkan [_Computer Organization and Design_](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269) oleh Patterson dan Hennessy, sebuah buku teks klasik yang sangat bagus. Anda tidak harus membaca setiap bagian dari buku ini; kami menyarankan Anda untuk mengikuti kuliah [CS61C](https://inst.eecs.berkeley.edu/~cs61c/sp15/) _Great Ideas in Computer Architecture_ dari Berkeley untuk bacaan tertentu dalam buku ini. Catatan kuliahnya tersedia secara daring, dan kuliah sebelumnya [terdapat di Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
 
-### Algorithms and Data Structures
+### Algoritma dan Struktur Data
 
 <img align="right" height="280" src="https://teachyourselfcs.com/polya.jpg">
 <img align="right" height="280" src="https://teachyourselfcs.com/skiena.jpg">
 
-> I have only one method that I recommend extensively—it’s called think before you write.
+> Saya hanya memiliki satu metode yang sangat saya anjurkan—berpikirlah sebelum menulis.
 
 — _Richard Hamming_
 
-We agree with decades of common wisdom that familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study.
+Kami sependapat dengan pandangan yang telah diterima selama puluhan tahun bahwa pemahaman tentang algoritma dan struktur data yang umum digunakan adalah salah satu bekal paling berharga dari pendidikan ilmu komputer. Topik ini juga sangat baik untuk melatih kemampuan pemecahan masalah secara umum, yang akan bermanfaat di setiap bidang studi lainnya.
 
-There are hundreds of books available, but our favorite is [_The Algorithm Design Manual_](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) by Steven Skiena. He clearly loves algorithmic problem solving and typically succeeds in fostering similar enthusiasm among his students and readers. In our opinion, the two more commonly suggested texts (CLRS and Sedgewick) tend to be a little too proof-heavy for those learning the material primarily to help with practical problem solving.
+Ada ratusan buku yang tersedia, tetapi favorit kami adalah [_The Algorithm Design Manual_](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) karya Steven Skiena. Kecintaannya pada pemecahan masalah algoritmik terlihat jelas, dan ia biasanya berhasil menumbuhkan antusiasme serupa pada mahasiswa dan pembacanya. Menurut kami, dua buku yang lebih sering direkomendasikan (CLRS dan Sedgewick) cenderung terlalu menekankan pembuktian bagi mereka yang mempelajari materi ini terutama untuk membantu memecahkan masalah praktis.
 
-For those who prefer video lectures, [Skiena generously provides his online](https://www3.cs.stonybrook.edu/~skiena/373/videos/). We also really like Tim Roughgarden’s course, available [on Coursera](https://www.coursera.org/specializations/algorithms) and [elsewhere](http://timroughgarden.org/videos.html). Whether you prefer Skiena’s or Roughgarden’s lecture style will be a matter of personal preference. In fact, there are dozens of good alternatives, so if you happen to find another that you like, we encourage you to stick with it!
+Bagi yang lebih menyukai video perkuliahan, [Skiena dengan murah hati menyediakan video kuliahnya secara daring](https://www3.cs.stonybrook.edu/~skiena/373/videos/). Kami juga sangat menyukai kursus Tim Roughgarden, yang tersedia [di Coursera](https://www.coursera.org/specializations/algorithms) dan [di tempat lain](http://timroughgarden.org/videos.html). Pilihan antara gaya mengajar Skiena dan Roughgarden bergantung pada preferensi masing-masing. Sebenarnya, ada puluhan alternatif yang bagus, jadi jika Anda menemukan yang Anda sukai, kami menyarankan Anda untuk tetap mengikutinya!
 
-For practice, our preferred approach is for students to solve problems on [Leetcode](http://leetcode.com). These tend to be interesting problems with decent accompanying solutions and discussions. They also help you test progress against questions that are commonly used in technical interviews at the more competitive software companies. We suggest solving around 100 random leetcode problems as part of your studies.
+Untuk latihan, pendekatan yang kami sukai adalah mengerjakan soal-soal di [Leetcode](http://leetcode.com). Soal-soalnya cenderung menarik, disertai solusi dan pembahasan yang cukup baik. Soal-soal tersebut juga membantu Anda mengukur kemajuan melalui pertanyaan yang umum digunakan dalam wawancara teknis di perusahaan perangkat lunak yang lebih kompetitif. Kami menyarankan Anda mengerjakan sekitar 100 soal Leetcode secara acak sebagai bagian dari pembelajaran Anda.
 
-Finally, we strongly recommend [_How to Solve It_](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) as an excellent and unique guide to general problem solving; it’s as applicable to computer science as it is to mathematics.
+Terakhir, kami sangat merekomendasikan [_How to Solve It_](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/) sebagai panduan pemecahan masalah secara umum yang sangat bagus dan unik; isinya sama relevannya untuk ilmu komputer maupun matematika.
 
-### Mathematics for Computer Science
+### Matematika untuk Ilmu Komputer
 
-> If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
+> Jika orang tidak percaya bahwa matematika itu sederhana, itu hanya karena mereka tidak menyadari betapa rumitnya kehidupan.
 
 — _John von Neumann_
 
-In some ways, computer science is an overgrown branch of applied mathematics. While many software engineers try—and to varying degrees succeed—at ignoring this, we encourage you to embrace it with direct study. Doing so successfully will give you an enormous competitive advantage over those who don’t.
+Dalam beberapa hal, ilmu komputer adalah cabang matematika terapan yang berkembang pesat. Meskipun banyak _software engineer_ berusaha—dan dengan tingkat keberhasilan yang berbeda-beda—untuk mengabaikan hal ini, kami mendorong Anda untuk mempelajari matematika secara langsung. Jika berhasil, Anda akan memiliki keunggulan kompetitif yang sangat besar dibandingkan mereka yang tidak melakukannya.
 
-The most relevant area of math for CS is broadly called “discrete mathematics”, where “discrete” is the opposite of “continuous” and is loosely a collection of interesting applied math topics outside of calculus. Given the vague definition, it’s not meaningful to try to cover the entire breadth of “discrete mathematics”. A more realistic goal is to build a working understanding of logic, combinatorics and probability, set theory, graph theory, and a little of the number theory informing cryptography. Linear algebra is an additional worthwhile area of study, given its importance in computer graphics and machine learning.
+Bidang matematika yang paling relevan bagi ilmu komputer secara umum disebut “matematika diskrit”. “Diskrit” adalah kebalikan dari “kontinu”, dan istilah ini secara longgar mencakup berbagai topik menarik dalam matematika terapan di luar kalkulus. Karena definisinya tidak tegas, tidak masuk akal untuk mencoba mempelajari seluruh cakupan matematika diskrit. Tujuan yang lebih realistis adalah membangun pemahaman praktis tentang logika, kombinatorika dan probabilitas, teori himpunan, teori graf, serta sedikit teori bilangan yang mendasari kriptografi. Aljabar linear juga patut dipelajari, mengingat pentingnya bidang ini dalam grafika komputer dan _machine learning_.
 
-Our suggested starting point for discrete mathematics is the set of [lecture notes by László Lovász](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf). Professor Lovász did a good job of making the content approachable and intuitive, so this serves as a better starting point than more formal texts.
+Sebagai titik awal untuk matematika diskrit, kami menyarankan [catatan kuliah László Lovász](https://cims.nyu.edu/~regev/teaching/discrete_math_fall_2005/dmbook.pdf). Profesor Lovász berhasil menyajikan materinya secara mudah dipahami dan intuitif, sehingga catatan ini lebih cocok sebagai titik awal daripada buku teks yang lebih formal.
 
-For a more advanced treatment, we suggest [_Mathematics for Computer Science_](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf), the book-length lecture notes for the MIT course of the same name. That course’s video lectures are also [freely available](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/), and are our recommended video lectures for discrete math.
+Untuk pembahasan yang lebih lanjut, kami menyarankan [_Mathematics for Computer Science_](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf), catatan kuliah sepanjang buku untuk mata kuliah MIT dengan nama yang sama. Video perkuliahannya juga [tersedia secara gratis](https://ocw.mit.edu/courses/6-042j-mathematics-for-computer-science-fall-2010/video_galleries/video-lectures/), dan merupakan video yang kami rekomendasikan untuk matematika diskrit.
 
-For linear algebra, we suggest starting with the [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) video series, followed by Gilbert Strang’s [book](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) and [video lectures](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/).
+Untuk aljabar linear, kami menyarankan Anda memulai dengan seri video [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), lalu melanjutkan dengan [buku](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) dan [video perkuliahan](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/) Gilbert Strang.
 
 ### Sistem Operasi
 
@@ -150,38 +150,38 @@ Buku favorit kami tentang topik ini adalah [_Computer Networking: A Top-Down App
 
 Bagi mereka yang lebih menyukai materi dalam bentuk video, kami menyarankan video kuliah [_Introduction to Computer Networking_](https://www.youtube.com/playlist?list=PLoCMsyE1cvdWKsLVyf6cPwCLDIZnOj0NS) dari Stanford yang sebelumnya ada pada platform belajar online mereka, tapi sayangnya sekarang hanya tersedia sebagai playlist tidak resmi di YouTube.
 
-### Databases
+### Basis Data
 
 <img align="right" width="200" src="https://teachyourselfcs.com/redbook.jpg">
 <img align="right" width="200" src="https://teachyourselfcs.com/data-reality.jpg">
 
-It takes more work to self-learn about database systems than it does with most other topics. It’s a relatively new (i.e. post 1970s) field of study with strong commercial incentives for ideas to stay behind closed doors. Additionally, many potentially excellent textbook authors have preferred to join or start companies instead.
+Belajar mandiri tentang sistem basis data membutuhkan lebih banyak usaha dibandingkan kebanyakan topik lainnya. Bidang ini relatif baru (berkembang setelah tahun 1970-an), dan ada insentif komersial yang kuat untuk merahasiakan berbagai gagasannya. Selain itu, banyak calon penulis buku teks yang mungkin sangat baik justru memilih bergabung dengan perusahaan atau mendirikan perusahaan sendiri.
 
-Given the circumstances, we encourage self-learners to generally avoid textbooks and start with [recordings of CS 186](https://www.youtube.com/user/CS186Berkeley/videos), Joe Hellerstein’s databases course at Berkeley, and to progress to reading papers after.
+Karena itu, kami menyarankan pembelajar mandiri untuk tidak langsung menggunakan buku teks, melainkan memulai dengan [rekaman kuliah CS 186](https://www.youtube.com/user/CS186Berkeley/videos), mata kuliah basis data Joe Hellerstein di Berkeley, lalu melanjutkan dengan membaca makalah.
 
-One paper particularly worth mentioning for new students is “[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)”, which uniquely provides a high-level view of how relational database management systems (RDBMS) work. This will serve as a useful skeleton for further study.
+Salah satu makalah yang sangat layak disebutkan bagi pelajar baru adalah “[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)”, yang memberikan gambaran umum tentang cara kerja sistem manajemen basis data relasional (RDBMS) dengan cara yang sulit ditemukan di tempat lain. Makalah ini dapat menjadi kerangka yang berguna untuk studi lebih lanjut.
 
-_Readings in Database Systems_, better known as [the databases “Red Book”](http://www.redbook.io/), is a collection of papers compiled and edited by Peter Bailis, Joe Hellerstein and Michael Stonebraker. For those who have progressed beyond the level of the CS 186 content, the Red Book should be your next stop.
+_Readings in Database Systems_, yang lebih dikenal sebagai [“Red Book” untuk basis data](http://www.redbook.io/), adalah kumpulan makalah yang disusun dan disunting oleh Peter Bailis, Joe Hellerstein, dan Michael Stonebraker. Jika Anda sudah menguasai materi CS 186, Red Book sebaiknya menjadi sumber belajar berikutnya.
 
-If you're adamant about using an introductory textbook, we suggest [_Database Management Systems_](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/) by Ramakrishnan and Gehrke. For more advanced students, Jim Gray’s classic [_Transaction Processing: Concepts and Techniques_](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902) is worthwhile, but we don’t encourage using this as a first resource.
+Jika Anda tetap ingin menggunakan buku teks pengantar, kami menyarankan [_Database Management Systems_](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/) karya Ramakrishnan dan Gehrke. Bagi pelajar yang lebih lanjut, buku klasik Jim Gray, [_Transaction Processing: Concepts and Techniques_](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902), patut dibaca, tetapi kami tidak menyarankannya sebagai sumber belajar pertama.
 
-Finally, data modeling is a neglected and poorly taught aspect of working with databases. Our suggested book on the topic is [_Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World_](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215).
+Terakhir, pemodelan data adalah aspek dalam bekerja dengan basis data yang sering diabaikan dan kurang baik diajarkan. Buku yang kami sarankan untuk topik ini adalah [_Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World_](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215).
 
-### Languages and Compilers
+### Bahasa Pemrograman dan Kompiler
 
 <img align="right" width="200" src="https://teachyourselfcs.com/dragon.jpg">
 
-> Don’t be a boilerplate programmer. Instead, build tools for users and other programmers. Take historical note of textile and steel industries: do you want to build machines and tools, or do you want to operate those machines?
+> Jangan menjadi pemrogram yang hanya menulis kode berulang. Sebaliknya, buatlah alat untuk pengguna dan pemrogram lain. Belajarlah dari sejarah industri tekstil dan baja: apakah Anda ingin membangun mesin dan alat, atau sekadar mengoperasikannya?
 
-— _Ras Bodik at the start of his compilers course_
+— _Ras Bodik pada awal kuliah kompilernya_
 
-Most programmers learn languages, whereas most computer scientists learn _about_ languages. This gives the computer scientist a distinct advantage over the programmer, even in the domain of programming! Their knowledge generalizes; they are able to understand the operation of a new language more deeply and quickly than those who have merely learned specific languages.
+Kebanyakan pemrogram mempelajari bahasa pemrograman, sedangkan kebanyakan ilmuwan komputer mempelajari _tentang_ bahasa pemrograman. Hal ini memberi ilmuwan komputer keunggulan tersendiri dibandingkan pemrogram, bahkan dalam bidang pemrograman! Pengetahuan mereka dapat diterapkan secara lebih luas; mereka mampu memahami cara kerja bahasa baru dengan lebih mendalam dan lebih cepat daripada mereka yang hanya mempelajari bahasa tertentu.
 
-Our suggested introductory text is the excellent [_Crafting Interpreters_](https://craftinginterpreters.com/contents.html) by Bob Nystrom, available for free online. It's well organized, highly entertaining, and well suited to those whose primary goal is simply to better understand their languages and language tools. We suggest taking the time to work through the whole thing, attempting whichever of the "challenges" sustain your interest.
+Buku pengantar yang kami sarankan adalah [_Crafting Interpreters_](https://craftinginterpreters.com/contents.html) karya Bob Nystrom, yang sangat bagus dan tersedia gratis secara daring. Buku ini tersusun dengan baik, sangat menyenangkan untuk dibaca, dan cocok bagi mereka yang tujuan utamanya adalah memahami bahasa pemrograman dan alat-alatnya dengan lebih baik. Kami menyarankan Anda meluangkan waktu untuk membaca dan mengerjakan seluruh buku ini, serta mencoba tantangan mana pun yang menarik bagi Anda.
 
-A more traditional recommendation is [_Compilers: Principles, Techniques & Tools_](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811), commonly called “the Dragon Book”. Unfortunately, it’s not designed for self-study, but rather for instructors to pick out 1-2 semesters worth of topics for their courses.
+Rekomendasi yang lebih tradisional adalah [_Compilers: Principles, Techniques & Tools_](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811), yang biasa disebut “Dragon Book”. Sayangnya, buku ini tidak dirancang untuk belajar mandiri, melainkan agar dosen dapat memilih materi untuk perkuliahan selama satu atau dua semester.
 
-If you elect to use the Dragon Book, it’s almost essential that you cherry-pick the topics, ideally with the help of a mentor. In fact, our suggested way to utilize the Dragon Book, if you so choose, is as a supplementary reference for a video lecture series. Our recommended one is [Alex Aiken’s, on edX](https://www.edx.org/course/compilers).
+Jika Anda memilih menggunakan Dragon Book, Anda hampir pasti perlu memilih topik-topik tertentu, idealnya dengan bantuan seorang mentor. Bahkan, kami menyarankan agar Anda menggunakan Dragon Book sebagai referensi pelengkap untuk seri video perkuliahan. Seri yang kami rekomendasikan adalah [kuliah Alex Aiken di edX](https://www.edx.org/course/compilers).
 
 ### Sistem Terdistribusi
 
@@ -191,11 +191,11 @@ Semakin bertambahnya jumlah komputer, _penyebaran_ penggunaannya pun semakin lua
 
 Buku yang kami sarankan untuk belajar mandiri adalah [_Designing Data-Intensive Applications_](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/) oleh Martin Kleppmann. Buku yang jauh lebih baik daripada buku teks tradisional, DDIA adalah buku yang sangat mudah dibaca yang dirancang untuk para praktisi tanpa mengorbankan kedalaman atau ketelitian.
 
-For those seeking a more traditional text, or who would prefer one that’s available for free online, we suggest Maarten van Steen and Andrew Tanenbaum’s [_Distributed Systems, 3rd Edition_](https://www.distributed-systems.net/index.php/books/ds3/).
+Bagi yang mencari buku teks yang lebih tradisional atau lebih menyukai buku yang tersedia gratis secara daring, kami menyarankan [_Distributed Systems, 3rd Edition_](https://www.distributed-systems.net/index.php/books/ds3/) karya Maarten van Steen dan Andrew Tanenbaum.
 
-For those who prefer video, an excellent course with videos available online is [MIT’s 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), a graduate course taught by Robert Morris with readings available [here](https://pdos.csail.mit.edu/6.824/schedule.html).
+Bagi yang lebih menyukai video, [MIT 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB) adalah mata kuliah pascasarjana yang sangat baik dengan video yang tersedia secara daring. Mata kuliah ini diajarkan oleh Robert Morris, dan bahan bacaannya tersedia [di sini](https://pdos.csail.mit.edu/6.824/schedule.html).
 
-No matter the choice of textbook or other secondary resources, study of distributed systems absolutely mandates reading papers. A good list is [here](http://dsrg.pdos.csail.mit.edu/papers/), and we would highly encourage attending your local [Papers We Love](http://paperswelove.org/) chapter.
+Apa pun buku teks atau sumber belajar tambahan yang Anda pilih, mempelajari sistem terdistribusi mutlak memerlukan membaca makalah. Daftar makalah yang bagus tersedia [di sini](http://dsrg.pdos.csail.mit.edu/papers/), dan kami sangat menganjurkan Anda mengikuti pertemuan komunitas [Papers We Love](http://paperswelove.org/) di daerah Anda.
 
 ## Pertanyaan yang sering diajukan
 
