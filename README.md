@@ -1,4 +1,4 @@
-# Belajar Sendiri Ilmu Komputer
+Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)indonesian translationMenggunakan Picture-in-Picture (Video Melayang)Menggunakan Picture-in-Picture (Video Melayang)# Belajar Sendiri Ilmu Komputer
 
 > Dokumen ini adalah terjemahan dari [TeachYourselfCS](https://teachyourselfcs.com/). Untuk versi aslinya, [lihat di sini](https://teachyourselfcs.com/).
 
